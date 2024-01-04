@@ -1,0 +1,25 @@
+{
+  "name": "com.rk.adscanvas",
+  "version": "1.0.0",
+  "displayName": "AdsCanvas",
+  "description": "",
+  "unity": "2022.3",
+  "unityRelease": "14f1",
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "keywords": [
+    "AdsCanvas",
+    "byrk",
+    "AdsCanvasbyrk"
+  ],
+  "dependencies": {
+    "com.unity.textmeshpro":"3.0.6"
+  },
+  "author": {
+    "name": "KetanRathod",
+    "email": "rathodketan042@gmail.com",
+    "url": ""
+  },
+  "type": "tool"
+}

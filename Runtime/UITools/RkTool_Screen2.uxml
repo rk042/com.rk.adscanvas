@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/UITools/ScreensUss.uss?fileID=7433441132597879392&amp;guid=9857ade14b29cae4b8b92a5fefda287d&amp;type=3#ScreensUss" />
+    <ui:VisualElement name="Screen2" class="rootParentElement" style="flex-basis: auto; flex-wrap: wrap;">
+        <ui:VisualElement name="TitleLable" class="rootElement" style="flex-basis: auto; transform-origin: center;">
+            <ui:Label tabindex="-1" text="RK Tool" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" class="titleLable" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BodyElement" class="rootElement" style="flex-wrap: wrap;">
+            <ui:TextField picking-mode="Ignore" value="Enter Template Name" name="tfName" style="flex-wrap: wrap; align-self: center; justify-content: center; align-items: center; font-size: 25px; margin-top: 24px; margin-right: 24px; margin-bottom: 24px; margin-left: 24px; padding-top: 24px; padding-right: 24px; padding-bottom: 24px; padding-left: 24px; -unity-text-align: middle-center; white-space: normal;" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="lableError" style="white-space: normal; -unity-text-align: middle-center; color: rgb(255, 0, 0); font-size: 36px;" />
+        <ui:VisualElement name="BottomElement" class="rootElement" style="flex-direction: row; transform-origin: center; align-self: center; justify-content: flex-end; align-items: center;">
+            <ui:Button text="SAVE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnSave" class="screen2Buttons" style="background-color: rgba(13, 142, 0, 0.61);" />
+            <ui:Button text="CLOSE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnClose" enable-rich-text="true" class="screen2Buttons" style="background-color: rgba(255, 0, 0, 0.53);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

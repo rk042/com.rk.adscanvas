@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements">
+    <ui:VisualElement name="TitleLable" class="rootElement" style="flex-direction: column;">
+        <ui:Label tabindex="-1" text="RK Tool" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" class="titleLable" />
+    </ui:VisualElement>
+</ui:UXML>

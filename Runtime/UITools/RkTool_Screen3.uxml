@@ -1,0 +1,42 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <Style src="project://database/Assets/UITools/ScreensUss.uss?fileID=7433441132597879392&amp;guid=9857ade14b29cae4b8b92a5fefda287d&amp;type=3#ScreensUss" />
+    <ui:VisualElement name="Screen2" class="rootParentElement" style="flex-basis: auto; flex-wrap: nowrap; justify-content: flex-start; align-items: stretch; align-self: stretch;">
+        <ui:VisualElement name="TitleLable" class="rootElement" style="flex-basis: auto; transform-origin: center;">
+            <ui:Label tabindex="-1" text="RK Tool" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" class="titleLable" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BodyElement" class="rootElement" style="flex-direction: row; margin-top: 3px; margin-right: 3px; margin-bottom: 3px; margin-left: 3px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px; flex-wrap: nowrap;">
+            <ui:VisualElement name="LeftPanel" style="flex-grow: 1; flex-wrap: wrap; align-items: stretch; justify-content: flex-start; align-self: stretch; margin-top: 8px;">
+                <ui:ScrollView style="flex-wrap: wrap; flex-direction: column; height: auto; width: auto; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+                    <ui:VisualElement style="flex-grow: 1; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px;">
+                        <ui:Button text="Canvas 0" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" style="font-size: 25px; background-color: rgba(255, 255, 255, 0); color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px;">
+                        <ui:Button text="RawImage 1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" style="color: rgb(255, 255, 255); background-color: rgba(188, 188, 188, 0); text-overflow: ellipsis; font-size: 25px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px;">
+                        <ui:Button text="Button 2" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" style="font-size: 25px; background-color: rgba(255, 255, 255, 0); color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px;">
+                        <ui:Button text="Text 3" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" style="font-size: 25px; background-color: rgba(255, 255, 255, 0); color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px;">
+                        <ui:Button text="Image 4" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" style="font-size: 25px; background-color: rgba(255, 255, 255, 0); color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+                    </ui:VisualElement>
+                    <ui:VisualElement style="flex-grow: 1; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; padding-top: 2px; padding-right: 2px; padding-bottom: 2px; padding-left: 2px;">
+                        <ui:Button text="Empty 5" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Button" enable-rich-text="true" style="font-size: 25px; background-color: rgba(255, 255, 255, 0); color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+                    </ui:VisualElement>
+                </ui:ScrollView>
+            </ui:VisualElement>
+            <ui:VisualElement name="RightPanel" style="margin-top: 7px; margin-right: 7px; margin-bottom: 7px; margin-left: 7px; padding-top: 1px; padding-right: 1px; padding-bottom: 1px; padding-left: 1px; flex-grow: 1; align-self: stretch; justify-content: flex-start; align-items: stretch;">
+                <ui:VisualElement name="VisualElement" style="flex-grow: 1;">
+                    <ui:TextField picking-mode="Ignore" multiline="true" name="tfName" style="flex-grow: 1; flex-shrink: 0; white-space: normal; height: auto; width: auto; font-size: 20px; color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="lableError" style="white-space: normal; -unity-text-align: middle-center; color: rgb(255, 0, 0); font-size: 36px;" />
+        <ui:VisualElement name="BottomElement" class="rootElement" style="flex-direction: row; align-self: stretch; justify-content: center; align-items: flex-end; flex-shrink: 0;">
+            <ui:Button text="SAVE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnSave" class="screen2Buttons" style="background-color: rgba(13, 142, 0, 0.61);" />
+            <ui:Button text="CLOSE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="btnClose" enable-rich-text="true" class="screen2Buttons" style="background-color: rgba(255, 0, 0, 0.53);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

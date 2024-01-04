@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UITools/ScreensUss.uss?fileID=7433441132597879392&amp;guid=9857ade14b29cae4b8b92a5fefda287d&amp;type=3#ScreensUss" />
+    <ui:VisualElement name="Screen1" class="rootParentElement" style="flex-grow: 1; justify-content: center; align-items: center; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; margin-top: 2px; margin-right: 2px; margin-bottom: 2px; margin-left: 2px;">
+        <ui:VisualElement name="TitleLable" class="rootElement" style="flex-direction: column;">
+            <ui:Label tabindex="-1" text="RK Tool" parse-escape-sequences="true" display-tooltip-when-elided="true" enable-rich-text="true" class="titleLable" />
+        </ui:VisualElement>
+        <ui:VisualElement name="BodyElement" class="rootElement" style="flex-grow: 1;">
+            <ui:ScrollView name="scrollView" style="flex-wrap: wrap; flex-direction: column; align-self: stretch; justify-content: flex-start;" />
+        </ui:VisualElement>
+        <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="lableError" style="white-space: normal; -unity-text-align: middle-center; color: rgb(255, 0, 0); font-size: 36px;" />
+        <ui:VisualElement name="BottomElement" class="rootElement">
+            <ui:Button text="CREATE NEW TEMPLATE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BtnCreateNewTemplate" style="align-items: center; justify-content: center; align-self: center; margin-top: 12px; margin-right: 12px; margin-bottom: 12px; margin-left: 12px; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); background-color: rgba(0, 130, 22, 0.64); -unity-font-style: normal; flex-grow: 1; font-size: 21px; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
